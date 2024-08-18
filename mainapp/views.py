@@ -13,5 +13,6 @@ def getIndexPage(request):
     return render(
         request,
         "mainapp/index.html",
+        # "mainapp/bootstrap.html",
         {}
     )
